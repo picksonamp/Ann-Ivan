@@ -127,7 +127,28 @@
 
           <div class="questions">
 
-                <form class="form-example">
+         <!-- <form action="https://getform.io/f/aroyjzgb" method="POST">
+                <label for="name" class="question-text" >Введите имя и фамилию: </label><input id="name" type="text" name="name" placeholder="Введите имя и фамилию...">
+
+                <input type="text" name="message">
+               
+                <input type="hidden" name="_gotcha" style="display:none !important">
+               
+                <input type="checkbox" name="subscribe" value="yes" checked>
+                <input type="hidden" name="subscribe" value="no">
+               
+                <input type="radio" name="gender" value="male" checked>
+                <input type="radio" name="gender" value="female">
+                <input type="radio" name="gender" value="other">
+         
+                <select name="work-experience">
+                    <option value="one-year">0-1 years</option>
+                    <option value="one-five-years">1-5 years</option>
+                </select>
+                <button type="submit">Send</button>
+            </form>  -->
+
+                <form class="form-example" action="https://getform.io/f/aroyjzgb" method="POST">
 
                     <div class="form-example">
                         <label for="name" class="question-text" >Введите имя и фамилию: </label>
@@ -135,8 +156,8 @@
                     </div>
 
                     <div class="form-example">
-                        <label for="pres" class="question-text">Планируете ли Вы присутствовать? </label>
-                        <p><input name="pres" type="radio" value="yes" checked id="presense"><label for="presense" class="label-for">Да, с удовольствием!</label></p>
+                        <label for="presense" class="question-text">Планируете ли Вы присутствовать? </label>
+                        <p><input name="presense" type="radio" value="yes" checked id="presense"><label for="presense" class="label-for">Да, с удовольствием!</label></p>
                         <p><input name="pres" type="radio" value="no" id="presense-none"><label for="presense-none" class="label-for">К сожалению, не могу</label></p>
                                         </div>
 
@@ -176,16 +197,18 @@
                         </div>
 
                         <div class="drinks">
-                            <input type="text" placeholder="Введите свой вариант..." id="textarea" rows="1" maxlength="25">
+                            <input type="text" name="message" placeholder="Введите свой вариант..." id="textarea" rows="1" maxlength="25">
+                       
                         </div>
 
                         
 
                     
-                         <input type="button" value="Отправить" id="sendButton"/>
+                         <input type="submit" value="Отправить" id="sendButton"/>
                     
 
                 </form>
+                
             </div>
 
 
